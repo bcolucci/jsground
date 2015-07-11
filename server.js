@@ -23,4 +23,4 @@ app.get('/', function (req, res) {
   res.render('index');
 });
 
-server.listen(80);
+server.listen(3000);

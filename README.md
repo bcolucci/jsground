@@ -7,10 +7,12 @@ JavaScript ;)
 
 Feel free to contribute if you want to.
 
+![a screenshot](https://github.com/bcolucci/jsground/raw/master/screenshots/1.png)
+
 # How to run it
 
     npm install jsground
     npm start
     
-    # check at localhost
+    # check at localhost:3000
     
