@@ -1,9 +1,10 @@
 
 # JSGround
 
-JSGround is a POC I built in few hours for a JavaScript presentation I'd to do. It's far away from good practices...
-I've not enough time to spend on it at the moment but the goal is to have something close of the Swift playground for
-JavaScript ;)
+JSGround is a POC that I built in few hours for a JavaScript presentation I had to do. The code is far away from the
+good practices and there is many things we can do... I've not enough time to spend on it's development at the moment
+but the goal is to have something close of the [Swift playground](https://developer.apple.com/swift/blog/?id=24)
+for JavaScript (a great challenge I think :p)
 
 Feel free to contribute if you want to.
 
