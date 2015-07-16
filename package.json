@@ -1,7 +1,7 @@
 {
   "name": "jsground",
   "version": "0.1.0",
-  "description": "A JavaScript POC playground",
+  "description": "A JavaScript playground (POC)",
   "main": "server.js",
   "dependencies": {
     "express": "^4.13.1",

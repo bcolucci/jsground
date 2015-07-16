@@ -136,6 +136,9 @@ var Bloc = function (manager) {
     }
     self.emitChange();
   };
+  this.textarea.onkeyup = function () {
+    self.emitChange();
+  };
   this.textarea.onfocus = function () {
     self.container.className += ' active';
     self.emitChange();
@@ -151,7 +154,7 @@ Bloc.prototype.emitChange = function () {
   delay(function () {
     var blocValue = self.textarea.value.trim();
     self.manager.socket.emit('blocChanged', self.index, blocValue);
-  }, 300);
+  }, 400);
 };
 
 Bloc.prototype.attach = function () {
